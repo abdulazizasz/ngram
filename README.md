@@ -6,9 +6,9 @@ Simple run
 3. hadoop fs -put read.txt
 4. hadoop NGram read.txt output 4
 
-    NGram --> JobName 
-    read.txt --> input in HDFS 
-    ouput --> Dir in HDFS
-    4 --> ngram n
+    NGram --> JobName  <br />
+    read.txt --> input in HDFS <br /> 
+    ouput --> Dir in HDFS <br />
+    4 --> ngram n <br />
 
 5. hadoop fs -cat output/part-r-00000
