@@ -16,7 +16,7 @@ public class NGram {
     Configuration conf = new Configuration();
     conf.set("n", args[2]);
     Job job = new Job(conf);
-    // job.setJarByClass(NGram.class);
+    job.setJarByClass(NGram.class);
     job.setJobName("NGram");
 
     FileInputFormat.addInputPath(job, new Path(args[0]));
